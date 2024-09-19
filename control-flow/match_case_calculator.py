@@ -1,12 +1,12 @@
-print("Enter the first number")
+print("Enter the first number: ")
 number1 = int(input())
-print("Enter the second number")
+print("Enter the second number: ")
 number2 = int(input())
-print("Choose the operation (+, -, *, /):")
+print("Choose the operation (+, -, *, /): ")
 
-operator = str(input())
+operation = str(input())
 
-match operator :
+match operation :
     case "+" :
         print(f"The result is {number1 + number2}")
     case "-" :
