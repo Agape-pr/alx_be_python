@@ -1,10 +1,7 @@
-print("Enter the first number: ")
-number1 = int(input())
-print("Enter the second number: ")
-number2 = int(input())
-print("Choose the operation (+, -, *, /): ")
 
-operation = str(input())
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
+operation = str(input("Choose the operation (+, -, *, /): "))
 
 match operation :
     case "+" :
