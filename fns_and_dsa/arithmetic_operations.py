@@ -1,7 +1,7 @@
 def perform_operation(num1, num2, operation):
     if operation == "add" :
         return num1 + num2 
-    elif operation == "substract" :
+    elif operation == "substraction" :
         return num1-num2 
     elif operation == "multiply" :
         return num1 * num2
