@@ -11,11 +11,14 @@ class Library :
     def check_out_book(self, Book):
         for book in self._books:
             if book.title == Book:
+
                 self._books.remove(Book)
+                self._is_checked_out = True
                 break
 
     def return_book(self, Book):
         self._books.append(Book)
+        return True
     def list_available_books(self):
         for book in self._books:
             print(book)
