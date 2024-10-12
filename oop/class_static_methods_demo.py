@@ -1,5 +1,5 @@
 class Calculator:
-    calculation_type = "Arthemetic Operations"
+    calculation_type = "Arithmetic Operations"
     def __init__(self):
         pass
     @staticmethod
